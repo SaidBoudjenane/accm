@@ -10,3 +10,7 @@ footer {
 body {
     overflow-x: hidden;
 }
+
+.card-img-top {
+    object-fit: contain;
+}
