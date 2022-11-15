@@ -14,3 +14,47 @@ body {
 .card-img-top {
     object-fit: contain;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.navbar {
+    background-color: #fb5607;
+    font-family: 'roboto', serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    font-size: 1.2em;
+}
+
+a{
+    color: #8338ec;
+}
+
+.btn-contact{
+    /* color: var(--bs-teal); */
+    color: #8338ec;
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.btn-contact:hover,
+.btn-contact:active{
+    color: #fff;
+    background-color: #3a86ff;
+
+}
+
+@media screen and (min-width: 992px) {
+    #navbarNavDropdown {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navbar .nav-link {
+        color: rgb(224, 224, 224);
+    }
+
+    .nav-link.active {
+        color: white !important;
+    }
+}
