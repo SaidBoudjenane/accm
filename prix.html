@@ -16,7 +16,7 @@
         <header>
             <nav class="navbar navbar-expand-lg p-4">
                 <div class="container-fluid">
-                    <a class="navbar-brand text-light" href="#">Aéroclub de Compiègne Margny<br>CONVENTION 2022</a>
+                    <a class="navbar-brand text-light" href="index.html" title="Accueil">Aéroclub de Compiègne Margny<br>CONVENTION 2022</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
@@ -31,45 +31,38 @@
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Accueil</a>
+                                    <a class="nav-link" aria-current="page" href="index.html" title="Accueil">Accueil</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">Historique</a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <div class="dropdown-item" href="#">Premier vol</div>
-                                            <div class="dropdown-item" href="#">Georges Guynemer</div>
+                                            <div class="dropdown-item" href="premier_vol.html" title="Premier vol">Premier vol</div>
+                                            <div class="dropdown-item" href="georges_guynemer.html" title="Georges Guynemer">Georges Guynemer</div>
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                                <li class="nav-item dropdown active">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">Convention 2022</a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <div class="dropdown-item" href="#">Prix</div>
+                                            <div class="dropdown-item" href="prix.html" title="Tarifs">Prix</div>
                                             <div class="dropdown-item" href="#">Simulateur</div>
                                             <div class="dropdown-item" href="#">Baptêmes</div>
                                             <div class="dropdown-item" href="#">Entreprises</div>
-                                            <div class="dropdown-item" href="#">Boissons</div>
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Événements
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Les 90 ans du club</a></li>
-                                    </ul>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" title="Les 90 ans du club" href="anniversaire.html">90 ans du club</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="shop.html">Boutique</a>
+                                    <a class="nav-link" aria-current="page" title="Boutique" href="shop.html">Boutique</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                                    <a class="nav-link" aria-current="page" title="Page de contact" href="contact.html">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -78,32 +71,97 @@
         </header>
 
         <main>
+            <div class="container-fluid">
+                <div class="row d-flex justify-content-around my-5">
+                    <h2 class="d-flex justify-content-center">Prix des tickets*</h2>
+                    <p class="d-flex justify-content-center mb-5">* Tout sera à acheter sur place</p>
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/bapteme de l'air.JPG" class="card-img-top" alt="Avion qui décolle">
+                        <div class="card-body">
+                            <h4 class="card-text">Baptême de l'air</h4>
+                            <h5>30€</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/stand de boissons.jpg" class="card-img-top" alt="Boissons fraiches">
+                        <div class="card-body">
+                            <h4 class="card-text">Boissons</h4>
+                            <h5>15€</h5>
+                            <p>Eau, Ice Tea, Coca-Cola, vins, bières.</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/cessna-152.jpg" class="card-img-top" alt="Simulateur de Cessna-152">
+                        <div class="card-body">
+                            <h4 class="card-text">Simulateur Cessna</h4>
+                            <h5>15€</h5>
+                            <p>Faites vous une idée de ce que les pilotes voient et vivent !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="container-fluid mt-5 mb-5">
+                <div class="row d-flex justify-content-around">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/simu-f16.jpg" class="card-img-top" alt="Simulateur de F-16">
+                        <div class="card-body">
+                            <h4 class="card-text">Simulateur de F-16</h4>
+                            <h5>20€</h5>
+                            <p>Ce prix devrait ravir tous ceux qui souhaitent tester cette machine de guerre !</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/avion electrique.JPG" class="card-img-top" alt="Boissons fraiches">
+                        <div class="card-body">
+                            <h4 class="card-text">Avion électrique</h4>
+                            <h5>30€</h5>
+                            <p>Baptême de l'air avec un avion électrique gentiment prêté par la DGAC.</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/img/Helicoptere.JPG" class="card-img-top" alt="Simulateur de cessna-152">
+                        <div class="card-body">
+                            <h4 class="card-text">Helicoptere</h4>
+                            <h5>30€</h5>
+                            <p>Tour en helicoptere pour voir ce qu'il y a dans notre belle région !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </main>
 
         <footer class="border-top p-5 pb-2">
             <div class="row">
-                <div class="col-4 col-md-4">
+                <div class="col-4">
                     <h5>Pages</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Accueil</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Les 90 ans du club</a>
+                        <li class="nav-item mb-2"><a href="index.html" title="Accueil" class="nav-link p-0 text-muted">Accueil</a></li>
+                        <li class="nav-item mb-2"><a href="anniversaire.html" title="Les 90 ans du club" class="nav-link p-0 text-muted">Les 90 ans du club</a>
                         </li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Historique : Premier
+                        <li class="nav-item mb-2"><a href="premier_vol.html" title="Premier vol" class="nav-link p-0 text-muted">Historique : Premier
                                 vol</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Historique : Georges
+                        <li class="nav-item mb-2"><a href="georges_guynemer.html" title="Georges Guynemer" class="nav-link p-0 text-muted">Historique : Georges
                                 Guynemer</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Produits dérivés</a></li>
+                        <li class="nav-item mb-2"><a href="shop.html" title="Boutique" class="nav-link p-0 text-muted">Produits dérivés</a></li>
                     </ul>
                 </div>
 
                 <div class="col-4 col-md-4">
                     <h5>Convention 2022</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Prix</a></li>
+                        <li class="nav-item mb-2"><a href="prix.html" class="nav-link p-0 text-muted">Prix</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Simulateur</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Baptême</a></li>
                         <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Entreprises</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Boissons</a></li>
                     </ul>
                 </div>
 
