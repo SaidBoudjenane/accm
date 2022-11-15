@@ -14,87 +14,106 @@
 <body>
     <div class="container-fluid p-0">
         <header>
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar navbar-expand-lg p-4">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Aéroclub de Margny</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                    <a class="navbar-brand text-light" href="#">Aéroclub de Compiègne Margny<br>CONVENTION 2022</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">Historique</a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <div class="dropdown-item" href="#">Premier vol</div>
-                                        <div class="dropdown-item" href="#">Georges Guynemer</div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">Convention 2022</a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <div class="dropdown-item" href="#">Prix</div>
-                                        <div class="dropdown-item" href="#">Simulateur</div>
-                                        <div class="dropdown-item" href="#">Baptêmes</div>
-                                        <div class="dropdown-item" href="#">Entreprises</div>
-                                        <div class="dropdown-item" href="#">Boissons</div>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Événements
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Les 90 ans du club</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="shop.html">Produits dérivés</a>
-                            </li>
-                        </ul>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Accueil</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Historique</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="dropdown-item" href="#">Premier vol</div>
+                                            <div class="dropdown-item" href="#">Georges Guynemer</div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Convention 2022</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <div class="dropdown-item" href="#">Prix</div>
+                                            <div class="dropdown-item" href="#">Simulateur</div>
+                                            <div class="dropdown-item" href="#">Baptêmes</div>
+                                            <div class="dropdown-item" href="#">Entreprises</div>
+                                            <div class="dropdown-item" href="#">Boissons</div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Événements
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Les 90 ans du club</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="shop.html">Boutique</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
             </nav>
         </header>
         <main class="my-5 bg-light">
             <div class="row d-flex justify-content-center">
-                <div class="col-md-4">
-                    <h2>Titre</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio alias doloribus delectus dolor
-                        nihil fugiat hic! Culpa et commodi voluptate beatae ut porro pariatur debitis similique, fuga
-                        corrupti vitae officiis?</p>
+                <div class="col-lg-6">
+                    <h2>Le DR-400</h2>
+                    <p>
+                        Le DR-400 est l'un des avions les plus utilisés dans l'aviation civile. Petit et fiable, nous
+                        ferons les baptêmes de l'air
+                        dans cet avion !
+                    </p>
                 </div>
-                <img src="assets/img/batpeme_avion.png" height="100px" class="col-md-4 img-fluid">
+                <img src="assets/img/dr400.jpg" height="100px" class="col-6 img-fluid">
             </div>
             <div class="row d-flex justify-content-center mt-4">
-                <img src="assets/img/batpeme_avion.png" height="100px" class="col-md-4 img-fluid">
-                <div class="col-md-4">
-                    <h2>Titre</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio alias doloribus delectus dolor
-                        nihil fugiat hic! Culpa et commodi voluptate beatae ut porro pariatur debitis similique, fuga
-                        corrupti vitae officiis?</p>
+                <img src="assets/img/s200.jpg" height="100px" class="col-md-4 order-lg-first order-last img-fluid">
+                <div class="col-lg-6">
+                    <h2>Le S-200</h2>
+                    <p>
+                        Cet avion de la marque Sonaca est un avion léger qui vole plus ou moins vite. Il est actuellement
+                        en reparation
+                        et sera en présentation au moment de l'événement
+                    </p>
                 </div>
             </div>
             <div class="row d-flex justify-content-center mt-4">
-                <div class="col-md-4">
-                    <h2>Titre</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio alias doloribus delectus dolor
-                        nihil fugiat hic! Culpa et commodi voluptate beatae ut porro pariatur debitis similique, fuga
-                        corrupti vitae officiis?</p>
+                <div class="col-lg-6">
+                    <h2>Jodel D-119</h2>
+                    <p>
+                        La fierté de l'aéroclub. Cet avion a failli être demonté mais a finalement fini par être
+                        restauré avec l'aide des
+                        différents bénévoles. Vous pourrez le voir entreposé avec beaucoup d'autres avions du club !
+                    </p>
                 </div>
-                <img src="assets/img/batpeme_avion.png" height="100px" class="col-md-4 img-fluid">
+                <img src="assets/img/jodel.jpg" height="100px" class="col-md-4 img-fluid">
             </div>
+            <section class="col12 d-flex justify-content-center mt-5">
+                <iframe class="col-6" height="500em" src="http://www.youtube.com/embed/fYNr3-6LRQ0"
+                    frameborder="0"></iframe>
+            </section>
         </main>
         <footer class="border-top p-5 pb-2">
             <div class="row">
