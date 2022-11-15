@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     <link href="assets/css/style.css" rel="stylesheet">
-    <title>Tarifs - ACCM</title>
+    <title>Simulateurs - ACCM</title>
 </head>
 
 <body>
@@ -47,9 +48,9 @@
                                         </li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown active">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">Convention 2022</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">Convention 2022</a>
                                     <ul class="dropdown-menu">
                                         <li>
                                             <div class="dropdown-item" href="prix.html" title="Tarifs">Prix</div>
@@ -77,73 +78,41 @@
             </nav>
         </header>
 
-        <main>
-            <div class="container-fluid">
-                <div class="row d-flex justify-content-around my-5">
-                    <h2 class="d-flex justify-content-center">Prix des tickets*</h2>
-                    <p class="d-flex justify-content-center mb-5">* Tout sera à acheter sur place</p>
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/img/bapteme de l'air.JPG" class="card-img-top" alt="Avion qui décolle">
-                        <div class="card-body">
-                            <h4 class="card-text">Baptême de l'air</h4>
-                            <h5>30€</p>
-                        </div>
-                    </div>
+        <main class="my-5 bg-light">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-6">
+                    <h2>Le simulateur</h2>
+                    <p>
+                        Notre simulateur permet de réaliser des vols au plus proche de la réalité. Il est possible de
+                        faire des vols en utilisant les repères au sol (VFR) ou le GPS (vol IFR).
+                    </p>
+                </div>
+                <img src="assets/img/simulateur1.jpg" height="100px" class="col-4 img-fluid">
+            </div>
 
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/img/stand de boissons.jpg" class="card-img-top" alt="Boissons fraiches">
-                        <div class="card-body">
-                            <h4 class="card-text">Boissons</h4>
-                            <h5>15€</h5>
-                            <p>Eau, Ice Tea, Coca-Cola, vins, bières.</p>
-                        </div>
-                    </div>
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/img/cessna-152.jpg" class="card-img-top" alt="Simulateur de Cessna-152">
-                        <div class="card-body">
-                            <h4 class="card-text">Simulateur Cessna</h4>
-                            <h5>15€</h5>
-                            <p>Faites vous une idée de ce que les pilotes voient et vivent !</p>
-                        </div>
-                    </div>
+            <div class="row d-flex justify-content-center mt-4">
+                <img src="assets/img/simulateur2.jpg" height="100px"
+                    class="col-md-4 order-lg-first order-last img-fluid">
+                <div class="col-lg-6">
+                    <h2>Vol VFR</h2>
+                    <p>
+                        Visual Flight Rules (règles de vol à vue). Ce type de vol se prépare avant l'arrivée dans le
+                        simulateur, comme si l'on s'installait dans un véritable avion. Le vol se fait selon les repères
+                        au sol uniquement par temps dégagé.
+                    </p>
                 </div>
             </div>
 
-
-
-
-            <div class="container-fluid mt-5 mb-5">
-                <div class="row d-flex justify-content-around">
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/img/simu-f16.jpg" class="card-img-top" alt="Simulateur de F-16">
-                        <div class="card-body">
-                            <h4 class="card-text">Simulateur de F-16</h4>
-                            <h5>20€</h5>
-                            <p>Ce prix devrait ravir tous ceux qui souhaitent tester cette machine de guerre !</p>
-                        </div>
-                    </div>
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/img/avion electrique.JPG" class="card-img-top" alt="Boissons fraiches">
-                        <div class="card-body">
-                            <h4 class="card-text">Avion électrique</h4>
-                            <h5>30€</h5>
-                            <p>Baptême de l'air avec un avion électrique gentiment prêté par la DGAC.</p>
-                        </div>
-                    </div>
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="assets/img/Helicoptere.JPG" class="card-img-top" alt="Simulateur de cessna-152">
-                        <div class="card-body">
-                            <h4 class="card-text">Helicoptere</h4>
-                            <h5>30€</h5>
-                            <p>Tour en helicoptere pour voir ce qu'il y a dans notre belle région !</p>
-                        </div>
-                    </div>
+            <div class="row d-flex justify-content-center mt-4">
+                <div class="col-lg-6">
+                    <h2>Vol IFR</h2>
+                    <p>
+                        Instrument Flight Rules (règles de vol aux instruments) en utilisant le GPS et le pilote
+                        automatique. Permet de faire un vol avec une mauvaise visibilité.
+                    </p>
                 </div>
+                <img src="assets/img/simulateur3.jpg" height="100px" class="col-md-4 img-fluid">
             </div>
-
         </main>
 
         <footer class="border-top p-5 pb-2">
@@ -153,8 +122,8 @@
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><a href="index.html" title="Accueil"
                                 class="nav-link p-0 text-muted">Accueil</a></li>
-                        <li class="nav-item mb-2"><a href="avions.html" title="Les avions"
-                                class="nav-link p-0 text-muted">Avions</a>
+                        <li class="nav-item mb-2"><a href="anniversaire.html" title="Les 90 ans du club"
+                                class="nav-link p-0 text-muted">Les 90 ans du club</a>
                         </li>
                         <li class="nav-item mb-2"><a href="premier_vol.html" title="Premier vol"
                                 class="nav-link p-0 text-muted">Historique : Premier
